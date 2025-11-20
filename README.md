@@ -4,54 +4,55 @@ Projeto acadêmico desenvolvido para a disciplina de Modelagem de Banco de Dados
 
 🎯 Objetivos do Projeto
 
--Aplicar modelagem Entidade-Relacionamento
+- Aplicar modelagem Entidade-Relacionamento
 
--Criar tabelas com DDL
+- Criar tabelas com DDL
 
--Manipular dados com INSERT, UPDATE, DELETE e SELECT
+- Manipular dados com INSERT, UPDATE, DELETE e SELECT
 
--Garantir integridade referencial com chaves primárias e estrangeiras
+- Garantir integridade referencial com chaves primárias e estrangeiras
 
 🛠 Tecnologias
 
--PostgreSQL
+- PostgreSQL
 
--SQL
+- SQL
 
--PGAdmin
+- PGAdmin
 
 📁 Estrutura do Banco
 
 Tabelas implementadas:
--funcionario
 
--produto
+- funcionario
 
--entrada
+- produto
 
--saida
+- entrada
+
+- saida
 
 As tabelas possuem relacionamentos definidos via foreign keys.
 
 ▶️ Como Executar
 
-1-Criar um banco de dados no PostgreSQL
+1- Criar um banco de dados no PostgreSQL
 
-2-Executar o script de criação de tabelas
+2- Executar o script de criação de tabelas
 
-3-Rodar os scripts de inserção, alteração e consulta
+3- Rodar os scripts de inserção, alteração e consulta
 
 📂 Scripts no Repositório
 
--01_create_tables.sql
+- 01_create_tables.sql
 
--02_insert.sql
+- 02_insert.sql
 
--03_update.sql
+- 03_update.sql
 
--04_delete.sql
+- 04_delete.sql
 
--05_select.sql
+- 05_select.sql
 
 👤 Autor
 Douglas Henrique Barankievicz – Trabalho acadêmico para a disciplina de Banco de Dados.
