@@ -28,7 +28,9 @@ As tabelas possuem relacionamentos definidos via foreign keys.
 ▶️ Como Executar
 
 1-Criar um banco de dados no PostgreSQL
+
 2-Executar o script de criação de tabelas
+
 3-Rodar os scripts de inserção, alteração e consulta
 
 📂 Scripts no Repositório
