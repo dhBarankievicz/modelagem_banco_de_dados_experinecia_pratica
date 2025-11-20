@@ -5,22 +5,30 @@ Projeto acadêmico desenvolvido para a disciplina de Modelagem de Banco de Dados
 🎯 Objetivos do Projeto
 
 -Aplicar modelagem Entidade-Relacionamento
+
 -Criar tabelas com DDL
+
 -Manipular dados com INSERT, UPDATE, DELETE e SELECT
+
 -Garantir integridade referencial com chaves primárias e estrangeiras
 
 🛠 Tecnologias
 
 -PostgreSQL
+
 -SQL
+
 -PGAdmin
 
 📁 Estrutura do Banco
 
 Tabelas implementadas:
 -funcionario
+
 -produto
+
 -entrada
+
 -saida
 
 As tabelas possuem relacionamentos definidos via foreign keys.
@@ -36,9 +44,13 @@ As tabelas possuem relacionamentos definidos via foreign keys.
 📂 Scripts no Repositório
 
 -01_create_tables.sql
+
 -02_insert.sql
+
 -03_update.sql
+
 -04_delete.sql
+
 -05_select.sql
 
 👤 Autor
