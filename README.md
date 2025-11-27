@@ -36,12 +36,16 @@ As tabelas possuem relacionamentos definidos via foreign keys.
 
 ▶️ Como Executar
 
-1- Criar um banco de dados no PostgreSQL
+Para rodar este projeto, siga os passos na ordem abaixo:
 
-2- Executar o script de criação de tabelas
-
-3- Rodar os scripts de inserção, alteração e consulta
-
+1.  Criação do Banco de Dados: Crie um novo banco de dados no PostgreSQL (via PGAdmin ou linha de comando).
+2.  Criação das Tabelas (DDL): Execute o script `01_create_tables.sql` para definir a estrutura (tabelas e chaves).
+3.  Inserção de Dados (DML): Execute o script `02_insert.sql` para popular as tabelas com dados iniciais.
+4.  Manipulação e Consultas (DML): Execute os scripts de manipulação e consulta na seguinte ordem:
+     `03_update.sql` (Altera dados existentes)
+     `04_delete.sql` (Exclui dados existentes)
+     `05_select.sql` (Consulta os dados restantes para validação)
+      
 📂 Scripts no Repositório
 
 - 01_create_tables.sql
